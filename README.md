@@ -314,6 +314,15 @@ See the [contributor guide](CONTRIBUTING.md) for local setup, checks to run, and
 
 ---
 
+## Documentation
+
+- [Deployment guide and mainnet checklist](docs/deployment.md)
+- [User guide](docs/user-guide/README.md) for buyers, suppliers, logistics providers and arbiters
+- [Component conventions and catalog](docs/components.md)
+- [i18n guide](docs/i18n.md)
+
+---
+
 ## Production Checklist
 
 - [ ] Set `NEXT_PUBLIC_STELLAR_NETWORK=mainnet`
@@ -321,6 +330,8 @@ See the [contributor guide](CONTRIBUTING.md) for local setup, checks to run, and
 - [ ] Configure mainnet contract ID
 - [ ] Enable HTTPS backend URL
 - [ ] Deploy frontend and backend with matching CORS settings
+
+See the [deployment guide](docs/deployment.md) for the full mainnet go-live checklist, CSP changes for custom RPC/IPFS hosts, and how to verify a deployment.
 
 ---
 
